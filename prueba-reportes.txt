@@ -1,0 +1,6 @@
+Cuando se realiza una petición GET a /reportes, 
+el servidor devuelve todos los reportes almacenados en memoria.
+
+Si no se ha enviado ningún reporte con POST, el resultado será un arreglo vacío [].
+
+Cuando se envían reportes, estos se guardan en un array y luego se pueden visualizar con GET.
